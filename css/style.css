@@ -1,0 +1,446 @@
+/*COMECO*/
+*{margin:0; padding:0; box-sizing: border-box; outline: none; font-size:
+	100%; font-family: 'Roboto', sans-serif; text-decoration: none;}
+.logo {position: absolute; right: 725px; top: 170px; color: #fff; border-color: #fff;}
+.comeco2 {position: absolute; left: 470px; top: 340px;}
+p {text-align: center;}
+h1 {text-align: center;}
+h1 span#titulo {
+	position: relative; bottom: 25px; right: 35px;
+	letter-spacing: 7px;
+	font-size: 35px;
+	color: #fff;
+}
+p span#paragrafo {
+	position: relative; right: 35px;
+	letter-spacing: 2px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 1.8;
+	text-transform: uppercase;
+}
+/*MENU*/
+.menu li {
+	float: left;
+	display: block;
+	position: relative; left: 479px; top: 150px;
+	letter-spacing: 2px;
+}
+.menu li a{
+	color: #fff;
+	font-size: 13px;
+	margin: 24px;
+	list-style: none;
+	padding: 13px 25%;
+	border-radius: 0;
+}
+
+#link12 {
+	border-right: none; border-radius: 5px 0 0 5px; padding: 13px 25%;}
+#link12:hover {
+	background-color: initial; opacity: 0.7;
+	transition:all 0.3s ease
+
+
+}
+#link2 {border-right: none;border-left: none; border-radius: 0 0 0 0; padding: 13px 26%;}
+#link2:hover {
+	background: initial; opacity: 0.7;
+	transition:all 0.3s ease
+
+}
+#link3 {border-right: none;border-left: none; border-radius: 0 0 0 0; padding: 13px 26%;}
+#link3:hover {
+	background: initial; opacity: 0.7;
+	transition:all 0.3s ease
+
+}
+#link4 {border-left: none; border-radius: 0 5px 5px 0; padding: 13px 23%;}
+#link4:hover {
+	background: initial; opacity: 0.7;
+	transition:all 0.3s ease
+
+}
+/*USEI LINHAS DE DIV PARA FAZER O MENU*/
+.circulo {
+	border-radius: 50%;
+  height: 95px;
+  width: 95px;
+  border: 1px solid #fff;
+  background-color: initial;
+  position: relative; left: 650px; top: 132px;
+
+}
+.linha {
+	border:1px solid #fff;
+	border-width: 0 0 1px 0;
+	width: 700px;
+	color: #fff;
+	position: relative; left: 356px; top: 180px;
+}
+.linha2 {
+	border:1px solid #fff;
+	border-width: 0 0 1px 0;
+	width: 700px;
+	color: #fff;
+	position: relative; left: 356px; top: 380px;
+}
+
+.linha3 {
+	border:1px solid #fff;
+	height: 50px;
+	width: 100px;
+	border-left: none;
+  border-top: none;
+  border-bottom: none;
+  position: relative; left: 596px; top: 380px;
+}
+
+.linha4 {
+	border:1px solid #fff;
+	height: 50px;
+	width: 100px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    position: relative; left: 596px; top: 79px;
+}
+
+.linha5 {
+	border:1px solid #fff;
+	height: 43px;
+	width: 100px;
+	border-radius: 5px 0 0 5px;
+  position: relative; left: 501px; top: 311px;
+}
+
+.linha6 {
+	border:1px solid #fff;
+	height: 43px;
+	width: 100px;
+	border-left: none;
+  position: relative; left: 596px; top: 268px;
+}
+
+.linha7 {
+	border:1px solid #fff;
+	height: 43px;
+	width: 100px;
+  position: relative; left: 695px; top: 225px;
+}
+
+.linha8 {
+	border:1px solid #fff;
+	height: 43px;
+	width: 112px;
+	border-radius: 0 5px 5px 0;
+  position: relative; left: 794px; top: 182px;
+ }
+
+
+/*CONTEUDO MENU INTRO*/
+#intro  {
+	width: 850px;
+	height: 0px;
+	float: center;
+	position: relative; top: -200px; left: 250px;
+}
+
+#intro p {
+	width:850px;
+	float: center;
+	position: relative; top: -260px; left: 50px;
+	letter-spacing: 1px;
+	text-align: justify;
+	color: #fff;
+	font-weight: 400;
+}
+
+
+
+h2 {
+	position: relative; top: 50px; right: 350px;
+	text-decoration: none; margin-top: 10px;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 25px;
+}
+
+.close1 {
+	position: absolute; top: 42px; left: 930px;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.close1:hover{
+	background: initial; opacity: 0.6;
+	transition:all 0.3s ease;
+}
+
+/*CONTEUDO MENU WORK*/
+#work  {
+	width: 850px;
+	height: 0px;
+	float: center;
+	position: relative; top: -200px; left: 250px;
+}
+
+#work p {
+	width:850px;
+	float: center;
+	position: relative; top: -260px; left: 50px;
+	letter-spacing: 1px;
+	text-align: justify;
+	color: #fff;
+	font-weight: 400;
+}
+
+
+h2 {
+	position: relative; top: 50px; right: 350px;
+	text-decoration: none; margin-top: 10px;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 25px;
+}
+
+
+.close2 {
+	position: absolute; top: 42px; left: 930px;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.close2:hover{
+	background: initial; opacity: 0.6;
+	transition:all 0.3s ease;
+}
+
+/*CONTEUDO MENU ABOUT*/
+#about  {
+	width: 850px;
+	height: 0px;
+	float: center;
+	position: relative; top: -200px; left: 250px;
+}
+
+#about p {
+	width:850px;
+	float: center;
+	position: relative; top: -260px; left: 50px;
+	letter-spacing: 1px;
+	text-align: justify;
+	color: #fff;
+	font-weight: 400;
+}
+
+
+
+h2 {
+	position: relative; top: 50px; right: 367px;
+	text-decoration: none; margin-top: 10px;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 25px;
+}
+
+.close3 {
+	position: absolute; top: 42px; left: 930px;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.close3:hover{
+	background: initial; opacity: 0.6;
+	transition:all 0.3s ease;
+}
+/*CONTEUDO MENU CONTACT*/
+#contact {
+	width: 850px;
+	height: 0px;
+	float: center;
+	position: relative; top: -200px; left: 250px;
+}
+
+.campos {
+	width:850px;
+	float:center;
+	position: relative; top: -250px; left: 50px;
+	letter-spacing: 2px;
+	color: #fff;
+	font-size: 12px;
+}
+
+.caixanome{
+	display: inline;
+	position: relative; top: -23px; left: -10px;
+	height: 20px;
+}
+
+.caixaemail{
+	display: inline;
+	position: relative; top: -27px; left: -38px;
+	height: 20px;
+}
+
+#email{
+	position: absolute; top: 20px; left: -1px;
+	background-color: transparent;
+	border:solid 1px; color:#fff;
+	border-radius: 5px;
+	width: 250px;
+	height: 38px;
+}
+
+#name{
+	position: relative; top: 28px; left:-47px;
+	background-color: transparent;
+	border:solid 1px; color:#fff;
+	border-radius: 5px;
+	width: 250px;
+	height: 38px;
+}
+
+.caixastexto{
+	position: absolute; top: 23px; left: -8px;
+}
+
+#message{
+	position: relative; top: 100px; left: -76px;
+	width: 535px;
+	height: 89px;
+	background-color: transparent;
+	border:solid 1px; color:#fff;
+	border-radius: 5px;
+	margin-left: 2px;
+}
+
+
+h2 {
+	position: relative; top: 37px; right: 367px;
+	text-decoration:none; margin-top: 10px;
+	color: #fff;
+	letter-spacing: 5px;
+	font-size: 25px;
+}
+
+.close4 {
+	position: absolute; top: 42px; left: 930px;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+	float: center;
+}
+
+.close4:hover{
+	background: initial; opacity: 0.6;
+	transition:all 0.3s ease;
+}
+/*BOTOES DE INTERAÇÃO*/
+.botoes {
+	float: center;
+	list-style-type: none;
+	background-color: initial;
+}
+
+.botaoMsg {
+	position: relative; top: -125px; left: 590px;
+	background-color: initial;
+	border: none; color:#fff;
+	padding: 15px 3%;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.botaoReset {
+	position: relative; top: -173px; left: 780px;
+	background-color: initial;
+	border: none; color: #fff;
+	padding: 15px 1%;
+	width: 12%;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.botaoReset:hover{
+	background: initial; opacity: 0.7;
+	transition:all 0.3s ease
+
+}
+
+.botaoMsg:hover{
+	background: initial; opacity: 0.7;
+	transition:all 0.3s ease
+}
+/*ICONES SOCIAIS*/
+.icones{
+	position: absolute; top: 219px; left: 615px;
+}
+
+.btn-facebook{
+	color: #fff;
+	margin-right:15px;
+}
+.btn-facebook:hover {
+	background: initial; opacity: 0.7;
+	transition:all 0.3s ease
+}
+
+.btn-twitter{
+	color: #fff;
+	margin-right:15px;
+}
+.btn-twitter:hover {
+	background: initial; opacity: 0.7;
+	transition:all 0.3s ease
+}
+
+.btn-instagram{
+	color: #fff;
+	margin-right:15px;
+}
+
+.btn-instagram:hover {
+	background: initial; opacity: 0.7;
+	transition:all 0.3s ease
+}
+
+.btn-google{
+	color: #fff;
+}
+
+.btn-google:hover {
+	background: initial; opacity: 0.7;
+	transition:all 0.3s ease
+}
+/*LINHA DE DIV PARA OS BOTOES*/
+.linha10 {
+	border:1px solid #fff;
+	height: 47px;
+	width: 145px;
+	border-radius: 5px;
+  position: absolute; left: 602px; top: 268px;
+}
+
+.linha11 {
+	border:1px solid #fff;
+	height: 47px;
+	width: 100px;
+	border-radius: 5px;
+  position: absolute; left: 780px; top: 268px;
+}
+
+
+ /*FOOTER*/
+.rodape {
+	float: left;
+	font-size: 9px;
+	color: #fff;
+	letter-spacing: 2px;
+	position: absolute; left: 585px; top: 750px;
+}
